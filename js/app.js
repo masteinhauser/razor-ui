@@ -4,18 +4,25 @@ RazorNodes.controller(
     $scope.message = "Enter a keyword.";
     
     $scope.search = function(){
-      $scope.results = ["One", "Two", "Three"];
-    }
-    
-    $scope.search = function(){
       var query = encodeURIComponent($scope.keyword);
-      var reqURL = 'http://10.128.2.2:8080/api/nodes'+ query; 
+      //var reqURL = 'http://10.128.2.2:8080/api/collections/nodes/'+ query; 
+      var reqURL = 'http://10.128.2.2:8080/api/collections/nodes; 
     
-      $http.json(reqURL).then(function(data){
-        // this is the success part
-      }, function(){
-        // this is the errors part
+      $http.get(reqURL).
+        success(function(data, status){
+	  var results = [];
+
+	  for(var i = 0; i < data.items.length; i++){
+	    results.push(data.items[i].name);
+	  }
+
+          $scope.results = results;
+        }).
+        error(function(data, status){
+          $scope.results = [];
+	  $scope.message = "There was an error.";
       });
+
     }
   }]
 );
