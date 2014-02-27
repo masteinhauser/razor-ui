@@ -6,7 +6,7 @@ RazorNodes.controller(
     $scope.search = function(){
       var query = encodeURIComponent($scope.keyword);
       //var reqURL = 'http://10.128.2.2:8080/api/collections/nodes/'+ query; 
-      var reqURL = 'http://10.128.2.2:8080/api/collections/nodes; 
+      var reqURL = 'http://10.128.2.2:8080/api/collections/nodes'; 
     
       $http.get(reqURL).
         success(function(data, status){
