@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="RazorApp">
   <head>
     <meta charset="utf-8">
     <title>Razor UI</title>
+     
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
   </head>
 
-  <body ng-app="RazorNodes">
-    <div class="wrapper" ng-controller="MainCtrl" > 
-      <p ng-bind="message"></p>
-      <label for="search">Show Node</label>
-      <input id="search" name="search" placeholder="Enter Node name" autofocus ng-model="keyword">
-      <input type="submit" value="Search" ng-click="search()">
-    
-      <p>You searched for <span ng-bind="keyword"></span></p>
-    
-      <section>
-        <p ng-repeat="result in results" ng-bind="result"></p>
-      </section>
-    </div>
-
-    <script src="lib/angular.min.js"></script>
-    <script src="js/app.js"></script>
-
+  <body>
+    <div ng-view></div>
   </body>
 </html>

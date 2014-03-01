@@ -1,0 +1,12 @@
+<table>
+	<tr>
+		<td>Hostname</td>
+		<td>{{ node.hostname }}</td>
+	</tr>
+	<tr><td></td></tr>
+	<tr ng-repeat="(key, fact) in node.facts | orderBy:name"><td>{{key}}</td><td>{{fact}}</td></tr>
+</table>
+<hr/>
+<pre>
+{{ node | json }}
+</pre>

@@ -1,0 +1,14 @@
+<div class="wrapper" ng-controller="NodeListCtrl" > 
+	<h3>Node Name</h3>
+
+	<table>
+		<tr ng-repeat="node in nodes | orderBy:name">
+			<td><a href="#/nodes/{{node}}">{{ node }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<hr/>
+<pre>
+{{ data | json }}
+</pre>
