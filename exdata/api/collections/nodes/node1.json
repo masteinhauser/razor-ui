@@ -1,1 +1,102 @@
-{"spec":"http://api.puppetlabs.com/razor/v1/collections/nodes/member","id":"http://10.128.2.2:8080/api/collections/nodes/node1","name":"node1","hw_info":{"mac":["e8-9a-8f-4f-ed-fd"],"serial":"hn55yq1","uuid":"4c4c4544-004e-3510-8035-c8c04f595131"},"dhcp_mac":"e8-9a-8f-4f-ed-fd","policy":{"spec":"http://api.puppetlabs.com/razor/v1/collections/policies/member","id":"http://10.128.2.2:8080/api/collections/policies/kvm-orch","name":"kvm-orch"},"log":{"id":"http://10.128.2.2:8080/api/collections/nodes/node1/log","name":"log"},"tags":[{"spec":"http://api.puppetlabs.com/razor/v1/collections/tags/member","id":"http://10.128.2.2:8080/api/collections/tags/c6105-server1","name":"c6105-server1"},{"spec":"http://api.puppetlabs.com/razor/v1/collections/tags/member","id":"http://10.128.2.2:8080/api/collections/tags/c6105","name":"c6105"},{"spec":"http://api.puppetlabs.com/razor/v1/collections/tags/member","id":"http://10.128.2.2:8080/api/collections/tags/dell-physical","name":"dell-physical"}],"facts":{"architecture":"x86_64","blockdevice_sda_size":598879502336,"blockdevice_sda_vendor":"LSI","blockdevice_sda_model":"MR9260-8i","blockdevices":"sda","macaddress":"e8:9a:8f:4f:ed:fc","facterversion":"1.7.4","hardwareisa":"x86_64","hardwaremodel":"x86_64","interfaces":"eno1,eno2,lo","macaddress_eno1":"e8:9a:8f:4f:ed:fc","ipaddress_eno2":"10.128.2.53","macaddress_eno2":"e8:9a:8f:4f:ed:fd","netmask_eno2":"255.255.255.0","ipaddress_lo":"127.0.0.1","netmask_lo":"255.0.0.0","ipaddress":"10.128.2.53","boardmanufacturer":"Dell Inc.","boardproductname":"001V46","boardserialnumber":".HN55YQ1.CN7170316E0276.","bios_vendor":"Dell Inc.","bios_version":"1.7.6","bios_release_date":"04/21/2011","manufacturer":"Dell Inc.","productname":"PowerEdge C6105","serialnumber":"HN55YQ1","uuid":"4C4C4544-004E-3510-8035-C8C04F595131","type":"Rack Mount Chassis","memorysize_mb":"64426.81","memoryfree_mb":"63929.57","netmask":"255.255.255.0","network_eno2":"10.128.2.0","network_lo":"127.0.0.0","physicalprocessorcount":2,"processor0":"AMD Opteron(tm) Processor 4170 HE","processor1":"AMD Opteron(tm) Processor 4170 HE","processor2":"AMD Opteron(tm) Processor 4170 HE","processor3":"AMD Opteron(tm) Processor 4170 HE","processor4":"AMD Opteron(tm) Processor 4170 HE","processor5":"AMD Opteron(tm) Processor 4170 HE","processor6":"AMD Opteron(tm) Processor 4170 HE","processor7":"AMD Opteron(tm) Processor 4170 HE","processor8":"AMD Opteron(tm) Processor 4170 HE","processor9":"AMD Opteron(tm) Processor 4170 HE","processor10":"AMD Opteron(tm) Processor 4170 HE","processor11":"AMD Opteron(tm) Processor 4170 HE","processorcount":"12","uniqueid":"800a3502","virtual":"physical","is_virtual":"false"},"metadata":{"ip":""},"state":{"installed":"kvm-orch","installed_at":"2014-02-25T14:43:21-08:00","stage":"boot_local"},"hostname":"kvm-orch1.roc","root_password":"changeme!","last_checkin":"2014-02-25T14:26:27-08:00"}
+{
+  "spec": "http://api.puppetlabs.com/razor/v1/collections/nodes/member",
+  "id": "http://10.128.2.2:8080/api/collections/nodes/node1",
+  "name": "node1",
+  "hw_info": {
+    "mac": [
+      "e8-9a-8f-4f-ed-fd"
+    ],
+    "serial": "hn55yq1",
+    "uuid": "4c4c4544-004e-3510-8035-c8c04f595131"
+  },
+  "dhcp_mac": "e8-9a-8f-4f-ed-fd",
+  "policy": {
+    "spec": "http://api.puppetlabs.com/razor/v1/collections/policies/member",
+    "id": "http://10.128.2.2:8080/api/collections/policies/kvm-orch",
+    "name": "kvm-orch"
+  },
+  "log": {
+    "id": "http://10.128.2.2:8080/api/collections/nodes/node1/log",
+    "name": "log"
+  },
+  "tags": [
+    {
+      "spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+      "id": "http://10.128.2.2:8080/api/collections/tags/c6105-server1",
+      "name": "c6105-server1"
+    },
+    {
+      "spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+      "id": "http://10.128.2.2:8080/api/collections/tags/c6105",
+      "name": "c6105"
+    },
+    {
+      "spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+      "id": "http://10.128.2.2:8080/api/collections/tags/dell-physical",
+      "name": "dell-physical"
+    }
+  ],
+  "facts": {
+    "architecture": "x86_64",
+    "blockdevice_sda_size": 598879502336,
+    "blockdevice_sda_vendor": "LSI",
+    "blockdevice_sda_model": "MR9260-8i",
+    "blockdevices": "sda",
+    "macaddress": "e8:9a:8f:4f:ed:fc",
+    "facterversion": "1.7.4",
+    "hardwareisa": "x86_64",
+    "hardwaremodel": "x86_64",
+    "interfaces": "eno1,eno2,lo",
+    "macaddress_eno1": "e8:9a:8f:4f:ed:fc",
+    "ipaddress_eno2": "10.128.2.53",
+    "macaddress_eno2": "e8:9a:8f:4f:ed:fd",
+    "netmask_eno2": "255.255.255.0",
+    "ipaddress_lo": "127.0.0.1",
+    "netmask_lo": "255.0.0.0",
+    "ipaddress": "10.128.2.53",
+    "boardmanufacturer": "Dell Inc.",
+    "boardproductname": "001V46",
+    "boardserialnumber": ".HN55YQ1.CN7170316E0276.",
+    "bios_vendor": "Dell Inc.",
+    "bios_version": "1.7.6",
+    "bios_release_date": "04/21/2011",
+    "manufacturer": "Dell Inc.",
+    "productname": "PowerEdge C6105",
+    "serialnumber": "HN55YQ1",
+    "uuid": "4C4C4544-004E-3510-8035-C8C04F595131",
+    "type": "Rack Mount Chassis",
+    "memorysize_mb": "64426.81",
+    "memoryfree_mb": "63929.57",
+    "netmask": "255.255.255.0",
+    "network_eno2": "10.128.2.0",
+    "network_lo": "127.0.0.0",
+    "physicalprocessorcount": 2,
+    "processor0": "AMD Opteron(tm) Processor 4170 HE",
+    "processor1": "AMD Opteron(tm) Processor 4170 HE",
+    "processor2": "AMD Opteron(tm) Processor 4170 HE",
+    "processor3": "AMD Opteron(tm) Processor 4170 HE",
+    "processor4": "AMD Opteron(tm) Processor 4170 HE",
+    "processor5": "AMD Opteron(tm) Processor 4170 HE",
+    "processor6": "AMD Opteron(tm) Processor 4170 HE",
+    "processor7": "AMD Opteron(tm) Processor 4170 HE",
+    "processor8": "AMD Opteron(tm) Processor 4170 HE",
+    "processor9": "AMD Opteron(tm) Processor 4170 HE",
+    "processor10": "AMD Opteron(tm) Processor 4170 HE",
+    "processor11": "AMD Opteron(tm) Processor 4170 HE",
+    "processorcount": "12",
+    "uniqueid": "800a3502",
+    "virtual": "physical",
+    "is_virtual": "false"
+  },
+  "metadata": {
+    "ip": ""
+  },
+  "state": {
+    "installed": "kvm-orch",
+    "installed_at": "2014-02-25T14:43:21-08:00",
+    "stage": "boot_local"
+  },
+  "hostname": "kvm-orch1.roc",
+  "root_password": "changeme!",
+  "last_checkin": "2014-02-25T14:26:27-08:00"
+}
