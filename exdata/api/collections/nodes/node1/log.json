@@ -1,0 +1,248 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/nodes/log",
+"items": [
+{
+"timestamp": "2014-02-24T13:06:41-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:36:40-08:00",
+"event": "bind",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:36:40-08:00",
+"action": "reboot",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:40:08-08:00",
+"event": "boot",
+"task": "ubuntu_precise_amd64",
+"template": "boot_install",
+"repo": "ubuntu-12.04.4",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:40:40-08:00",
+"event": "get_file",
+"template": "preseed",
+"url": "http://10.128.2.2:8080/svc/file/1/preseed",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:49:26-08:00",
+"event": "node_log",
+"msg": "preseed end",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:49:26-08:00",
+"event": "get_file",
+"template": "os_boot",
+"url": "http://10.128.2.2:8080/svc/file/1/os_boot",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:49:26-08:00",
+"event": "stage_done",
+"stage": "preseed",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:52:49-08:00",
+"event": "boot",
+"task": "ubuntu_precise_amd64",
+"template": "boot_local",
+"repo": "ubuntu-12.04.4",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:53:38-08:00",
+"event": "store_metadata",
+"vars": {
+"update": {
+"ip": ""
+}
+},
+"severity": "info"
+},
+{
+"timestamp": "2014-02-24T13:53:38-08:00",
+"event": "stage_done",
+"stage": "finished",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:08:19-08:00",
+"event": "reinstall",
+"installed": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:12:47-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:13:27-08:00",
+"event": "bind",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:13:27-08:00",
+"action": "reboot",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:16:55-08:00",
+"event": "boot",
+"task": "centos",
+"template": "boot_install",
+"repo": "centos-6.5",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:17:31-08:00",
+"event": "get_file",
+"template": "kickstart",
+"url": "http://10.128.2.2:8080/svc/file/1/kickstart",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:26:22-08:00",
+"event": "get_file",
+"template": "post_install",
+"url": "http://10.128.2.2:8080/svc/file/1/post_install",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:26:23-08:00",
+"event": "stage_done",
+"stage": "kickstart",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:29:45-08:00",
+"event": "boot",
+"task": "centos",
+"template": "boot_local",
+"repo": "centos-6.5",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:30:24-08:00",
+"event": "store_metadata",
+"vars": {
+"update": {
+"ip": ""
+}
+},
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T08:30:24-08:00",
+"event": "stage_done",
+"stage": "finished",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:21:40-08:00",
+"event": "reinstall",
+"policy_name": "kvm-orch",
+"installed": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:25:31-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:26:27-08:00",
+"event": "bind",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:26:27-08:00",
+"action": "reboot",
+"policy": "kvm-orch",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:30:01-08:00",
+"event": "boot",
+"task": "centos",
+"template": "boot_install",
+"repo": "centos-6.5",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:30:35-08:00",
+"event": "get_file",
+"template": "kickstart",
+"url": "http://10.128.2.2:8080/svc/file/1/kickstart",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:39:23-08:00",
+"event": "get_file",
+"template": "post_install",
+"url": "http://10.128.2.2:8080/svc/file/1/post_install",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:39:23-08:00",
+"event": "stage_done",
+"stage": "kickstart",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:42:41-08:00",
+"event": "boot",
+"task": "centos",
+"template": "boot_local",
+"repo": "centos-6.5",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:43:21-08:00",
+"event": "store_metadata",
+"vars": {
+"update": {
+"ip": ""
+}
+},
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T14:43:21-08:00",
+"event": "stage_done",
+"stage": "finished",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T16:07:39-08:00",
+"event": "boot",
+"task": "centos",
+"template": "boot_local",
+"repo": "centos-6.5",
+"severity": "info"
+}
+]
+}

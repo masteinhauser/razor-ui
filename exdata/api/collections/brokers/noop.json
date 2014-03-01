@@ -1,0 +1,12 @@
+{
+"spec": "http://10.128.2.2:8080/spec/object/broker",
+"id": "http://10.128.2.2:8080/api/collections/brokers/noop",
+"name": "noop",
+"configuration": {},
+"broker-type": "noop",
+"policies": {
+"id": "http://10.128.2.2:8080/api/collections/brokers/noop/policies",
+"count": 3,
+"name": "policies"
+}
+}

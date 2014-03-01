@@ -1,0 +1,24 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+"id": "http://10.128.2.2:8080/api/collections/tags/c6105-server1",
+"name": "c6105-server1",
+"rule": [
+"in",
+[
+"fact",
+"macaddress"
+],
+"e8:9a:8f:4f:ed:fc",
+"de:ea:db:ee:f0:01"
+],
+"nodes": {
+"id": "http://10.128.2.2:8080/api/collections/tags/c6105-server1/nodes",
+"count": 1,
+"name": "nodes"
+},
+"policies": {
+"id": "http://10.128.2.2:8080/api/collections/tags/c6105-server1/policies",
+"count": 1,
+"name": "policies"
+}
+}

@@ -1,0 +1,2671 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/nodes/log",
+"items": [
+{
+"timestamp": "2014-02-25T10:24:25-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T12:12:40-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T12:19:26-08:00",
+"event": "boot",
+"task": "microkernel",
+"template": "boot",
+"repo": "microkernel",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T12:30:19-08:00",
+"event": "bind",
+"policy": "xen-compute",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T12:30:19-08:00",
+"action": "reboot",
+"policy": "xen-compute",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T12:32:31-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T13:21:22-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:05:07-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:07:17-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:09:27-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:11:36-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:13:48-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:15:57-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:18:07-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:20:17-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:22:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:24:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:26:48-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:28:57-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:31:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:33:17-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:35:27-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:37:37-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:39:47-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:41:56-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:44:05-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:46:15-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:48:24-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T21:50:34-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:09:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:11:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:13:49-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:15:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:18:09-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:20:19-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:22:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:24:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:26:48-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:28:58-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:31:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:33:18-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:38:47-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:44:27-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:49:22-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:51:36-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T22:56:21-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:02:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:05:09-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:07:19-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:09:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:11:39-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:13:49-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:15:02-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:15:39-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:15:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:17:58-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:18:09-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:18:12-08:00",
+"event": "get_file",
+"template": "post-script.sh",
+"url": "http://10.128.2.2:8080/svc/file/5/post-script.sh",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:20:13-08:00",
+"event": "get_file",
+"template": "post-script",
+"url": "http://10.128.2.2:8080/svc/file/5/post-script",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:20:20-08:00",
+"event": "get_file",
+"template": "post-install",
+"url": "http://10.128.2.2:8080/svc/file/5/post-install",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:20:51-08:00",
+"event": "get_file",
+"template": "post_install",
+"url": "http://10.128.2.2:8080/svc/file/5/post_install",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:22:46-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:23:30-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:24:00-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:24:00-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:24:40-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:26:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-25T23:31:46-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:15:53-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:18:24-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:20:40-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:20:43-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:20:43-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:24:23-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:26:46-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:26:49-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:26:49-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:30:27-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:32:50-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:32:53-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:32:53-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:36:35-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:38:58-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:39:01-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:39:01-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:42:35-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:44:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:45:02-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:45:02-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:48:47-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:51:10-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:51:13-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:51:13-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:54:53-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:57:17-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:57:20-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T00:57:20-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:01:01-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:03:25-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:03:28-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:03:28-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:07:13-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:09:36-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:09:39-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:09:39-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:13:19-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:15:42-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:15:45-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:15:45-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:19:27-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:21:50-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:21:53-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:21:53-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:25:34-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:27:57-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:28:00-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:28:00-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:31:40-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:34:03-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:34:06-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:34:06-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:37:45-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:40:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:40:11-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:40:11-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:43:47-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:46:11-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:46:14-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:46:14-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:49:54-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:52:18-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:52:21-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:52:21-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:55:58-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:58:21-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:58:24-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T01:58:24-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:02:04-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:04:28-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:04:31-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:04:31-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:08:14-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:10:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:10:41-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:10:41-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:14:20-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:16:43-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:16:46-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:16:46-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:20:32-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:22:55-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:22:58-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:22:58-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:26:36-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:29:00-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:29:03-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:29:03-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:32:45-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:35:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:35:11-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:35:11-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:38:53-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:41:16-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:41:19-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:41:19-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:45:05-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:47:28-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:47:31-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:47:31-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:51:19-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:53:43-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:53:47-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:53:47-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:57:31-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:59:55-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:59:58-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T02:59:58-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:03:39-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:06:02-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:06:05-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:06:05-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:09:48-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:12:11-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:12:14-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:12:14-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:15:59-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:18:22-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:18:25-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:18:25-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:22:02-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:24:25-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:24:28-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:24:28-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:28:04-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:30:28-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:30:31-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:30:31-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:34:14-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:36:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:36:41-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:36:41-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:40:21-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:42:45-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:42:48-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:42:49-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:46:35-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:48:58-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:49:01-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:49:01-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:52:42-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:55:05-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:55:08-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:55:08-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T03:58:48-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:01:11-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:01:14-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:01:14-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:04:54-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:07:17-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:07:20-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:07:20-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:11:04-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:13:27-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:13:30-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:13:30-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:17:13-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:19:37-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:19:40-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:19:40-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:23:23-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:25:46-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:25:49-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:25:49-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:29:35-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:31:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:32:02-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:32:02-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:35:40-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:38:03-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:38:06-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:38:06-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:41:46-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:44:09-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:44:12-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:44:12-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:47:55-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:50:19-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:50:22-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:50:22-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:53:58-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:56:21-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:56:24-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T04:56:24-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:00:04-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:02:27-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:02:30-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:02:30-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:06:07-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:08:35-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:08:38-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:08:38-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:12:15-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:14:39-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:14:42-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:14:42-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:18:24-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:20:48-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:20:51-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:20:51-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:24:35-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:26:59-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:27:02-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:27:02-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:30:45-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:33:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:33:11-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:33:11-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:36:57-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:39:21-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:39:24-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:39:24-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:43:01-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:45:24-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:45:27-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:45:27-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:49:06-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:51:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:51:32-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:51:32-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:55:15-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:57:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:57:41-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T05:57:41-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:01:17-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:03:40-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:03:43-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:03:43-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:07:26-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:09:49-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:09:52-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:09:52-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:13:33-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:15:57-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:16:00-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:16:00-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:19:40-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:22:03-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:22:06-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:22:06-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:25:47-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:28:11-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:28:14-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:28:14-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:32:00-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:34:24-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:34:27-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:34:27-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:38:11-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:40:34-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:40:37-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:40:37-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:44:19-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:46:42-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:46:45-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:46:45-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:50:26-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:52:49-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:52:52-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:52:52-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:56:36-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:59:00-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:59:03-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T06:59:03-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:02:45-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:05:08-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:05:11-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:05:11-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:08:51-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:11:21-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:11:24-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:11:24-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:15:05-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:17:29-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:17:32-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:17:32-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:21:15-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:23:38-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:23:41-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:23:41-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:27:19-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:29:44-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:29:47-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:29:47-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:33:33-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:35:56-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:35:59-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:35:59-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:39:40-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:42:04-08:00",
+"event": "boot",
+"task": "xenserver",
+"template": "boot_install",
+"repo": "xenserver-6.2",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:42:07-08:00",
+"event": "get_file",
+"template": "pxelinux_xen.cfg",
+"url": "http://10.128.2.2:8080/svc/file/5/pxelinux_xen.cfg",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:42:07-08:00",
+"event": "get_file",
+"template": "pg_main",
+"url": "http://10.128.2.2:8080/svc/file/5/pg_main",
+"severity": "info"
+},
+{
+"timestamp": "2014-02-26T07:45:46-08:00",
+"event": "get_file",
+"template": "answerfile",
+"url": "http://10.128.2.2:8080/svc/file/5/answerfile",
+"severity": "info"
+}
+]
+}

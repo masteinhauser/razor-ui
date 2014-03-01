@@ -1,0 +1,38 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/policies/member",
+"id": "http://10.128.2.2:8080/api/collections/policies/xen-compute",
+"name": "xen-compute",
+"repo": {
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/xenserver-6.2",
+"name": "xenserver-6.2"
+},
+"task": {
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/xenserver",
+"name": "xenserver"
+},
+"broker": {
+"spec": "http://api.puppetlabs.com/razor/v1/collections/brokers/member",
+"id": "http://10.128.2.2:8080/api/collections/brokers/noop",
+"name": "noop"
+},
+"enabled": true,
+"max_count": 2,
+"configuration": {
+"hostname_pattern": "xen-compute${id}.roc",
+"root_password": "syseng"
+},
+"tags": [
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+"id": "http://10.128.2.2:8080/api/collections/tags/dell-physical",
+"name": "dell-physical"
+}
+],
+"nodes": {
+"id": "http://10.128.2.2:8080/api/collections/policies/xen-compute/nodes",
+"count": 2,
+"name": "nodes"
+}
+}

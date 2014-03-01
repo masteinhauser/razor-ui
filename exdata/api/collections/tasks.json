@@ -1,0 +1,70 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks",
+"items": [
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/centos",
+"name": "centos"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/centos-5",
+"name": "centos-5"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/debian",
+"name": "debian"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/microkernel",
+"name": "microkernel"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/noop",
+"name": "noop"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/ovirt",
+"name": "ovirt"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/redhat",
+"name": "redhat"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/ubuntu",
+"name": "ubuntu"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/ubuntu_precise_amd64",
+"name": "ubuntu_precise_amd64"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/ubuntu_precise_i386",
+"name": "ubuntu_precise_i386"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/vmware_esxi",
+"name": "vmware_esxi"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/windows",
+"name": "windows"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/xenserver",
+"name": "xenserver"
+}
+]
+}

@@ -1,0 +1,6 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/xenserver-6.2",
+"name": "xenserver-6.2",
+"iso_url": "http://10.1.12.126:8000/XenServer-6.2.0-install-cd.iso"
+}

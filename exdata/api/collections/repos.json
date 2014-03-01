@@ -1,0 +1,30 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos",
+"items": [
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/ubuntu-12.04.4",
+"name": "ubuntu-12.04.4"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/centos-6.5",
+"name": "centos-6.5"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/centos-5.10",
+"name": "centos-5.10"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/xenserver-6.2",
+"name": "xenserver-6.2"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/repos/member",
+"id": "http://10.128.2.2:8080/api/collections/repos/ovirt-3.0.1-1.0.2-el6",
+"name": "ovirt-3.0.1-1.0.2-el6"
+}
+]
+}

@@ -1,0 +1,15 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/brokers",
+"items": [
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/brokers/member",
+"id": "http://10.128.2.2:8080/api/collections/brokers/noop",
+"name": "noop"
+},
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/brokers/member",
+"id": "http://10.128.2.2:8080/api/collections/brokers/cloud-init",
+"name": "cloud-init"
+}
+]
+}

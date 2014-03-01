@@ -1,0 +1,23 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tags/member",
+"id": "http://10.128.2.2:8080/api/collections/tags/kvm-guest",
+"name": "kvm-guest",
+"rule": [
+"=",
+[
+"fact",
+"virtual"
+],
+"kvm"
+],
+"nodes": {
+"id": "http://10.128.2.2:8080/api/collections/tags/kvm-guest/nodes",
+"count": 2,
+"name": "nodes"
+},
+"policies": {
+"id": "http://10.128.2.2:8080/api/collections/tags/kvm-guest/policies",
+"count": 1,
+"name": "policies"
+}
+}

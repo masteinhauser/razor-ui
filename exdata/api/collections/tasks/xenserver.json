@@ -1,0 +1,13 @@
+{
+"spec": "http://api.puppetlabs.com/razor/v1/collections/tasks/member",
+"id": "http://10.128.2.2:8080/api/collections/tasks/xenserver",
+"name": "xenserver",
+"os": {
+"version": "6.2"
+},
+"description": "XenServer Installer",
+"boot_seq": {
+"1": "boot_install",
+"default": "boot_local"
+}
+}
