@@ -2,8 +2,8 @@
 	<h3>Node Name</h3>
 
 	<table>
-		<tr ng-repeat="node in nodes | orderBy:name">
-			<td><a ng-href="#/nodes/{{node}}">{{ node }}</a></td>
+		<tr ng-repeat="node in data.items | orderBy:name">
+			<td><a ng-href="#/nodes/{{node.name}}">{{ node.name }}</a></td>
     </tr>
   </table>
 </div>
