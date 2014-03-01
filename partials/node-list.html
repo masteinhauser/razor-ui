@@ -3,7 +3,7 @@
 
 	<table>
 		<tr ng-repeat="node in nodes | orderBy:name">
-			<td><a href="#/nodes/{{node}}">{{ node }}</a></td>
+			<td><a ng-href="#/nodes/{{node}}">{{ node }}</a></td>
     </tr>
   </table>
 </div>
