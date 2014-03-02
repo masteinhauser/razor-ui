@@ -11,7 +11,15 @@ RazorAppServices.factory('NodeList', ['$resource',
 RazorAppServices.factory('Node', ['$resource',
   function($resource){
     return $resource(getRazorUrl('/api/collections/nodes/:nodeId'), {}, {
-			query: {method:'GET', params:{nodeId:'node1'}, isArray:true}
+			query: {method:'GET', params:{nodeId:'node1'}}
+    });
+  }
+]);
+
+RazorAppServices.factory('NodeLog', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/nodes/:nodeId/log'), {}, {
+			query: {method:'GET', params:{nodeId:'node1'}}
     });
   }
 ]);

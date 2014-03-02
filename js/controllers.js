@@ -16,12 +16,13 @@ RazorAppControllers.controller(
 );
 
 RazorAppControllers.controller(
-  "NodeDetailCtrl", ["$scope", "$routeParams", "Node",
-  function($scope, $routeParams, Node){
+  "NodeDetailCtrl", ["$scope", "$routeParams", "Node", "NodeLog",
+  function($scope, $routeParams, Node, NodeLog){
 		$scope.config	= config;
     $scope.nodeId = $routeParams.nodeId; 
 
 		$scope.node = Node.get({nodeId: $routeParams.nodeId});
+		$scope.log  = NodeLog.get({nodeId: $routeParams.nodeId});
   }]
 );
 

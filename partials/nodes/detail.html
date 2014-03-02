@@ -1,27 +1,41 @@
-<table>
-	<tr>
-		<td>Hostname</td>
-		<td>{{ node.hostname }}</td>
-	</tr>
-	<tr>
-		<td>Last Checkin</td>
-		<td>{{ node.last_checkin }}</td>
-	</tr>
-	<tr><td colspan="2"><hr/></td></tr>
-	<tr>
-		<td>Policy</td>
-		<td><a ng-href="#/policies/{{node.policy.name}}">{{ node.policy.name }}</a></td>
-	</tr>
-	<tr ng-repeat="(key, value) in node.state | orderBy:name"><td>{{key}}</td><td>{{value}}</td></tr>
-	<tr><td colspan="2"><hr/></td></tr>
-	<tr ng-repeat="(key, fact) in node.facts | orderBy:name"><td>{{key}}</td><td>{{fact}}</td></tr>
-	<tr><td colspan="2"><hr/></td></tr>
-	<tr ng-repeat="(key, fact) in node.hw_info | orderBy:name"><td>{{key}}</td><td>{{fact}}</td></tr>
-	<tr><td colspan="2"><hr/></td></tr>
-	<tr ng-repeat="tag in node.tags | orderBy:name"><td>Tag</td><td>{{tag.name}}</td></tr>
-</table>
-<hr/>
+<div style="width: 100%;">
+  <div style="float:left; width: 80%">
+    <h3>Node Info</h3>
+		<table id="details" style="float: left;">
+			<tr>
+				<td>Hostname</td>
+				<td>{{ node.hostname }}</td>
+			</tr>
+			<tr>
+				<td>Last Checkin</td>
+				<td>{{ node.last_checkin }}</td>
+			</tr>
+			<tr><td colspan="2"><hr/></td></tr>
+			<tr>
+				<td>Policy</td>
+				<td><a ng-href="#/policies/{{node.policy.name}}">{{ node.policy.name }}</a></td>
+			</tr>
+			<tr ng-repeat="(key, value) in node.state | orderBy:name"><td>{{key}}</td><td>{{value}}</td></tr>
+			<tr><td colspan="2"><hr/></td></tr>
+			<tr ng-repeat="(key, fact) in node.facts | orderBy:name"><td>{{key}}</td><td>{{fact}}</td></tr>
+			<tr><td colspan="2"><hr/></td></tr>
+			<tr ng-repeat="(key, fact) in node.hw_info | orderBy:name"><td>{{key}}</td><td>{{fact}}</td></tr>
+			<tr><td colspan="2"><hr/></td></tr>
+			<tr ng-repeat="tag in node.tags | orderBy:name"><td>Tag</td><td>{{tag.name}}</td></tr>
+		</table>
+  </div>
 
-<pre ng-if="config.dump">
-{{ node | json }}
-</pre>
+	<div style="float:right;">
+    <h3>Log Entries</h3>
+		<table ng-repeat="logentry in log.items" class="log-entry">
+			<tr ng-repeat="(key, value) in logentry"><td>{{key}}</td><td>{{value}}</td></tr>
+			<tr><td colspan="2"><hr/></td></tr>
+		</table>
+	</div>
+</div>
+
+<div style="clear:both">
+	<pre ng-if="config.dump">
+	{{ node | json }}
+	</pre>
+</div>
