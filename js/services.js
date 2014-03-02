@@ -15,3 +15,19 @@ RazorAppServices.factory('Node', ['$resource',
     });
   }
 ]);
+
+RazorAppServices.factory('PolicyList', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/policies'), {}, {
+			query: {method:'GET'}
+    });
+  }
+]);
+
+RazorAppServices.factory('Policy', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/policies/:policyId'), {}, {
+			query: {method:'GET', params:{policyId:'policy1'}, isArray:true}
+    });
+  }
+]);

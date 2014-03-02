@@ -7,6 +7,10 @@ var RazorApp = angular.module("RazorApp", [
 RazorApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
+      when('/', {
+        templateUrl: 'partials/index.html',
+        controller: 'MainIndexCtrl'
+      }).
       when('/nodes', {
         templateUrl: 'partials/nodes/list.html',
         controller: 'NodeListCtrl'
@@ -15,8 +19,16 @@ RazorApp.config(['$routeProvider',
         templateUrl: 'partials/nodes/detail.html',
         controller: 'NodeDetailCtrl'
       }).
+      when('/policies', {
+        templateUrl: 'partials/policies/list.html',
+        controller: 'PolicyListCtrl'
+      }).
+      when('/policies/:policyId', {
+        templateUrl: 'partials/policies/detail.html',
+        controller: 'PolicyDetailCtrl'
+      }).
       otherwise({
-        redirectTo: '/nodes'
+        redirectTo: '/'
       });
   }
 ]);

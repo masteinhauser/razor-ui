@@ -1,6 +1,7 @@
 var config = {};
 
 config.exdata = true;
+config.dump		= true;
 
 if (config.exdata) {
   config.server = "localhost";

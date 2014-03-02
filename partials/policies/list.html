@@ -1,0 +1,14 @@
+<div class="wrapper" ng-controller="PolicyListCtrl" > 
+	<h3>Policy Name</h3>
+
+	<table>
+		<tr ng-repeat="policy in data.items | orderBy:name">
+			<td><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<hr/>
+<pre ng-if="config.dump">
+{{ data | json }}
+</pre>

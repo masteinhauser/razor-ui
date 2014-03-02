@@ -1,0 +1,20 @@
+<table>
+	<tr>
+		<th>Policy Name</th>
+		<th>{{ policy.name }}</th>
+	</tr>
+	<tr><td>Enabled</td><td>{{policy.enabled}}</td></tr>
+	<tr><td>Max Count</td><td>{{policy.max_count}}</td></tr>
+	<tr><td>Broker</td><td>{{policy.broker.name}}</td></tr>
+	<tr><td>Repo</td><td>{{policy.repo.name}}</td></tr>
+	<tr><td>Task</td><td>{{policy.task.name}}</td></tr>
+	<tr><td colspan=2><hr/></td></tr>
+	<tr ng-repeat="(key,value) in policy.configuration | orderBy:name"><td>{{key}}</td><td>{{value}}</td></tr>
+	<tr><td colspan=2><hr/></td></tr>
+	<tr ng-repeat="tag in policy.tags | orderBy:name"><td>Tag</td><td>{{tag.name}}</td></tr>
+</table>
+<hr/>
+
+<pre ng-if="config.dump">
+{{ policy | json }}
+</pre>
