@@ -2,7 +2,7 @@
 	<h3>Policy Name</h3>
 
 	<table>
-		<tr ng-repeat="policy in data.items | orderBy:name">
+		<tr ng-repeat="policy in data.items | orderBy:natural('name')">
 			<td><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
     </tr>
   </table>
