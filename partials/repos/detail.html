@@ -1,0 +1,22 @@
+<div style="width: 100%;">
+  <div style="float: left;">
+    <h3>Repo Info</h3>
+		<table id="details">
+			<tr>
+				<td>Name</td>
+				<td>{{ repo.name }}</td>
+			</tr>
+			<tr>
+				<td>ISO URL</td>
+				<td>{{ repo.iso_url }}</td>
+			</tr>
+			<tr><td colspan="2"><hr/></td></tr>
+		</table>
+  </div>
+</div>
+
+<div style="clear:both">
+	<pre ng-if="config.dump">
+{{ repo | json }}
+	</pre>
+</div>

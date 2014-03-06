@@ -1,0 +1,14 @@
+<div class="wrapper" ng-controller="RepoListCtrl" > 
+	<h3>Repo Name</h3>
+
+	<table>
+		<tr ng-repeat="repo in data.items | orderBy:natural('name')">
+			<td><a ng-href="#/repos/{{repo.name}}">{{ repo.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<hr/>
+<pre ng-if="config.dump">
+{{ data | json }}
+</pre>
