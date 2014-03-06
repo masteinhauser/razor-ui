@@ -24,7 +24,7 @@ RazorAppServices.factory('Policy', ['$resource',
   function($resource){
     return $resource(getRazorUrl('/api/collections/policies/'), {}, {
 			list:   {method:'GET', url: getRazorUrl('/api/collections/policies')},
-			detail: {method:'GET', url: getRazorUrl('/api/collections/policies/:policyId'), params:{policyId:'noop'}}
+			detail: {method:'GET', url: getRazorUrl('/api/collections/policies/:policyId'), params:{policyId:'noop'}},
 			nodes:  {method:'GET', url: getRazorUrl('/api/collections/policies/:policyId/nodes'), params:{policyId:'noop'}}
     });
   }
