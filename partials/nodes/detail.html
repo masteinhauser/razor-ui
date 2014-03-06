@@ -21,7 +21,7 @@
 			<tr><td colspan="2"><hr/></td></tr>
 			<tr ng-repeat="(key, fact) in node.hw_info | orderBy:natural('key')"><td>{{key}}</td><td>{{fact}}</td></tr>
 			<tr><td colspan="2"><hr/></td></tr>
-			<tr ng-repeat="tag in node.tags | orderBy:natural('name')"><td>Tag</td><td>{{tag.name}}</td></tr>
+			<tr ng-repeat="tag in node.tags | orderBy:natural('name')"><td>Tag</td><td><a ng-href="#/tags/{{tag.name}}">{{ tag.name }}</td></tr>
 		</table>
   </div>
 
