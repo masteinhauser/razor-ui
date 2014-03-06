@@ -1,0 +1,28 @@
+<div style="width: 100%;">
+  <div style="float: left;">
+    <h3>Task Info</h3>
+		<table id="details">
+			<tr>
+				<td>Name</td>
+				<td>{{ task.name }}</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>{{ task.description }}</td>
+			</tr>
+			<tr>
+				<td>OS Version</td>
+				<td>{{ task.os.version }}</td>
+			</tr>
+      <th>Boot Sequence</th>
+			<tr ng-repeat="(key, value) in task.boot_seq"><td>{{key}}</td><td>{{value}}</td></tr>
+			<tr><td colspan="2"><hr/></td></tr>
+		</table>
+  </div>
+</div>
+
+<div style="clear:both">
+	<pre ng-if="config.dump">
+{{ task | json }}
+	</pre>
+</div>
