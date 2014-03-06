@@ -12,6 +12,14 @@ RazorApp.config(['$routeProvider',
         templateUrl: 'partials/index.html',
         controller: 'MainIndexCtrl'
       }).
+      when('/brokers', {
+        templateUrl: 'partials/brokers/list.html',
+        controller: 'BrokerListCtrl'
+      }).
+      when('/brokers/:brokerId', {
+        templateUrl: 'partials/brokers/detail.html',
+        controller: 'BrokerDetailCtrl'
+      }).
       when('/nodes', {
         templateUrl: 'partials/nodes/list.html',
         controller: 'NodeListCtrl'
