@@ -39,3 +39,51 @@ RazorAppServices.factory('Policy', ['$resource',
     });
   }
 ]);
+
+RazorAppServices.factory('BrokerList', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/brokers'), {}, {
+			query: {method:'GET'}
+    });
+  }
+]);
+
+RazorAppServices.factory('Broker', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/brokers/:brokerId'), {}, {
+			query: {method:'GET', params:{brokerId:'noop'}, isArray:true}
+    });
+  }
+]);
+
+RazorAppServices.factory('TaskList', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/tasks'), {}, {
+			query: {method:'GET'}
+    });
+  }
+]);
+
+RazorAppServices.factory('Task', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/tasks/:taskId'), {}, {
+			query: {method:'GET', params:{taskId:'noop'}, isArray:true}
+    });
+  }
+]);
+
+RazorAppServices.factory('TagList', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/tags'), {}, {
+			query: {method:'GET'}
+    });
+  }
+]);
+
+RazorAppServices.factory('Tag', ['$resource',
+  function($resource){
+    return $resource(getRazorUrl('/api/collections/tags/:tagId'), {}, {
+			query: {method:'GET', params:{tagId:'noop'}, isArray:true}
+    });
+  }
+]);

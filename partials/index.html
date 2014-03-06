@@ -1,4 +1,4 @@
-<div class="wrapper" ng-controller="NodeListCtrl" > 
+<div class="wrapper" style="float:left" ng-controller="NodeListCtrl" > 
 	<h3>Nodes</h3>
 
 	<table>
@@ -8,7 +8,7 @@
   </table>
 </div>
 
-<div class="wrapper" ng-controller="PolicyListCtrl" > 
+<div class="wrapper" style="float:left" ng-controller="PolicyListCtrl" > 
 	<h3>Policies</h3>
 
 	<table>
@@ -18,3 +18,32 @@
   </table>
 </div>
 
+<div class="wrapper" style="float:left" ng-controller="BrokerListCtrl" > 
+	<h3>Brokers</h3>
+
+	<table>
+		<tr ng-repeat="broker in brokers.items | orderBy:natural('name')">
+			<td><a ng-href="#/brokers/{{broker.name}}">{{ broker.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="wrapper" style="float:left" ng-controller="TaskListCtrl" > 
+	<h3>Tasks</h3>
+
+	<table>
+		<tr ng-repeat="task in tasks.items | orderBy:natural('name')">
+			<td><a ng-href="#/tasks/{{task.name}}">{{ task.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="wrapper" style="float:left" ng-controller="TagListCtrl" > 
+	<h3>Tags</h3>
+
+	<table>
+		<tr ng-repeat="tag in tags.items | orderBy:natural('name')">
+			<td><a ng-href="#/tags/{{tag.name}}">{{ tag.name }}</a></td>
+    </tr>
+  </table>
+</div>
