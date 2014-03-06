@@ -3,8 +3,9 @@ var RazorAppServices = angular.module('RazorAppServices', ['ngResource']);
 RazorAppServices.factory('Broker', ['$resource',
   function($resource){
     return $resource(getRazorUrl('/api/collections/brokers'), {}, {
-			list:   {method:'GET', url: getRazorUrl('/api/collections/brokers')},
-			detail: {method:'GET', url: getRazorUrl('/api/collections/brokers/:brokerId'), params:{brokerId:'noop'}}
+			list:     {method:'GET', url: getRazorUrl('/api/collections/brokers')},
+			detail:   {method:'GET', url: getRazorUrl('/api/collections/brokers/:brokerId'), params:{brokerId:'noop'}},
+			policies: {method:'GET', url: getRazorUrl('/api/collections/brokers/:brokerId/policies'), params:{brokerId:'noop'}}
     });
   }
 ]);

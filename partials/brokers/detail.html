@@ -1,0 +1,29 @@
+<div style="width: 100%;">
+  <div style="float: left;">
+    <h3>Broker Info</h3>
+		<table id="details">
+			<tr>
+				<td>Name</td>
+				<td>{{ broker.name }}</td>
+			</tr>
+			<tr>
+				<td>Type</td>
+				<td>{{ broker["broker-type"] }}</td>
+			</tr>
+			<tr>
+				<td>Configuration</td>
+				<td>{{ broker.configuration }}</td>
+			</tr>
+			<tr><td colspan="2"><hr/></td></tr>
+			<tr ng-repeat="policy in broker.policies | orderBy:natural('name')">
+				<td colspan="2"><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
+			</tr>
+		</table>
+  </div>
+</div>
+
+<div style="clear:both">
+	<pre ng-if="config.dump">
+{{ node | json }}
+	</pre>
+</div>

@@ -1,0 +1,14 @@
+<div class="wrapper" ng-controller="BrokerListCtrl" > 
+	<h3>Broker Name</h3>
+
+	<table>
+		<tr ng-repeat="broker in data.items | orderBy:natural('name')">
+			<td><a ng-href="#/brokers/{{broker.name}}">{{ broker.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<hr/>
+<pre ng-if="config.dump">
+{{ data | json }}
+</pre>
