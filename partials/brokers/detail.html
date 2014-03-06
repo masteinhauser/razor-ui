@@ -15,6 +15,7 @@
 				<td>{{ broker.configuration }}</td>
 			</tr>
 			<tr><td colspan="2"><hr/></td></tr>
+      <tr><th colspan="2">Policies</th></tr>
 			<tr ng-repeat="policy in policies.items | orderBy:natural('name')">
 				<td colspan="2"><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
 			</tr>
