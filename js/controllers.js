@@ -1,55 +1,21 @@
 var RazorAppControllers = angular.module('RazorAppControllers', []);
 
 RazorAppControllers.controller(
-  "MainIndexCtrl", ["$scope", "NodeList", "PolicyList", "BrokerList", "TaskList", "TagList", function($scope, NodeList, PolicyList, BrokerList, TaskList, TagList){
+  "MainIndexCtrl", ["$scope", "Broker", "Node", "Policy", "Repo", "Task", "Tag", function($scope, Broker, Node, Policy, Repo, Task, Tag){
 		$scope.config		= config;
-		$scope.nodes		= NodeList.query();
-		$scope.policies = PolicyList.query();
-		$scope.brokers  = BrokerList.query();
-		$scope.tasks    = TaskList.query();
-		$scope.tags     = TagList.query();
+		$scope.brokers  = Broker.list();
+		$scope.nodes		= Node.list();
+		$scope.policies = Policy.list();
+		$scope.repos    = Repo.list();
+		$scope.tags     = Tag.list();
+		$scope.tasks    = Task.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "NodeListCtrl", ["$scope", "NodeList", function($scope, NodeList){
-		$scope.config	= config;
-		$scope.data = NodeList.query();
-  }]
-);
-
-RazorAppControllers.controller(
-  "NodeDetailCtrl", ["$scope", "$routeParams", "Node", "NodeLog",
-  function($scope, $routeParams, Node, NodeLog){
-		$scope.config	= config;
-    $scope.nodeId = $routeParams.nodeId; 
-
-		$scope.node = Node.get({nodeId: $routeParams.nodeId});
-		$scope.log  = NodeLog.get({nodeId: $routeParams.nodeId});
-  }]
-);
-
-RazorAppControllers.controller(
-  "PolicyListCtrl", ["$scope", "PolicyList", function($scope, PolicyList){
+  "BrokerListCtrl", ["$scope", "Broker", function($scope, Broker){
 		$scope.config		= config;
-		$scope.data = PolicyList.query();
-  }]
-);
-
-RazorAppControllers.controller(
-  "PolicyDetailCtrl", ["$scope", "$routeParams", "Policy",
-  function($scope, $routeParams, Policy){
-		$scope.config		= config;
-    $scope.policyId = $routeParams.policyId; 
-
-		$scope.policy = Policy.get({policyId: $routeParams.policyId});
-  }]
-);
-
-RazorAppControllers.controller(
-  "BrokerListCtrl", ["$scope", "BrokerList", function($scope, BrokerList){
-		$scope.config		= config;
-		$scope.data = BrokerList.query();
+		$scope.data = Broker.list();
   }]
 );
 
@@ -59,14 +25,66 @@ RazorAppControllers.controller(
 		$scope.config		= config;
     $scope.brokerId = $routeParams.brokerId; 
 
-		$scope.broker = Broker.get({brokerId: $routeParams.brokerId});
+		$scope.broker = Broker.detail({brokerId: $routeParams.brokerId});
   }]
 );
 
 RazorAppControllers.controller(
-  "TaskListCtrl", ["$scope", "TaskList", function($scope, TaskList){
+  "NodeListCtrl", ["$scope", "Node", function($scope, Node){
+		$scope.config	= config;
+		$scope.data = Node.list();
+  }]
+);
+
+RazorAppControllers.controller(
+  "NodeDetailCtrl", ["$scope", "$routeParams", "Node",
+  function($scope, $routeParams, Node){
+		$scope.config	= config;
+    $scope.nodeId = $routeParams.nodeId; 
+
+		$scope.node = Node.detail({nodeId: $routeParams.nodeId});
+		$scope.log  = Node.log({nodeId: $routeParams.nodeId});
+  }]
+);
+
+RazorAppControllers.controller(
+  "PolicyListCtrl", ["$scope", "Policy", function($scope, Policy){
 		$scope.config		= config;
-		$scope.data = TaskList.query();
+		$scope.data = Policy.list();
+  }]
+);
+
+RazorAppControllers.controller(
+  "PolicyDetailCtrl", ["$scope", "$routeParams", "Policy",
+  function($scope, $routeParams, Policy){
+		$scope.config		= config;
+    $scope.policyId = $routeParams.policyId; 
+
+		$scope.policy = Policy.detail({policyId: $routeParams.policyId});
+  }]
+);
+
+RazorAppControllers.controller(
+  "RepoListCtrl", ["$scope", "Repo", function($scope, Repo){
+		$scope.config		= config;
+		$scope.data = Repo.list();
+  }]
+);
+
+RazorAppControllers.controller(
+  "RepoDetailCtrl", ["$scope", "$routeParams", "Repo",
+  function($scope, $routeParams, Repo){
+		$scope.config		= config;
+    $scope.repoId = $routeParams.repoId; 
+
+		$scope.repo = Repo.detail({repoId: $routeParams.repoId});
+  }]
+);
+
+RazorAppControllers.controller(
+  "TaskListCtrl", ["$scope", "Task", function($scope, Task){
+		$scope.config		= config;
+		$scope.data = Task.list();
   }]
 );
 
@@ -76,14 +94,14 @@ RazorAppControllers.controller(
 		$scope.config		= config;
     $scope.taskId = $routeParams.taskId; 
 
-		$scope.task = Task.get({taskId: $routeParams.taskId});
+		$scope.task = Task.detail({taskId: $routeParams.taskId});
   }]
 );
 
 RazorAppControllers.controller(
-  "TagListCtrl", ["$scope", "TagList", function($scope, TagList){
+  "TagListCtrl", ["$scope", "Tag", function($scope, Tag){
 		$scope.config		= config;
-		$scope.data = TagList.query();
+		$scope.data = Tag.list();
   }]
 );
 
@@ -93,6 +111,6 @@ RazorAppControllers.controller(
 		$scope.config		= config;
     $scope.tagId = $routeParams.tagId; 
 
-		$scope.tag = Tag.get({tagId: $routeParams.tagId});
+		$scope.tag = Tag.detail({tagId: $routeParams.tagId});
   }]
 );

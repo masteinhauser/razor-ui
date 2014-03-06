@@ -36,6 +36,30 @@ RazorApp.config(['$routeProvider',
         templateUrl: 'partials/policies/detail.html',
         controller: 'PolicyDetailCtrl'
       }).
+      when('/repos', {
+        templateUrl: 'partials/repos/list.html',
+        controller: 'RepoListCtrl'
+      }).
+      when('/repos/:repoId', {
+        templateUrl: 'partials/repos/detail.html',
+        controller: 'RepoDetailCtrl'
+      }).
+      when('/tags', {
+        templateUrl: 'partials/tags/list.html',
+        controller: 'TagListCtrl'
+      }).
+      when('/tags/:tagId', {
+        templateUrl: 'partials/tags/detail.html',
+        controller: 'TagDetailCtrl'
+      }).
+      when('/tasks', {
+        templateUrl: 'partials/tasks/list.html',
+        controller: 'TaskListCtrl'
+      }).
+      when('/tasks/:taskId', {
+        templateUrl: 'partials/tasks/detail.html',
+        controller: 'TaskDetailCtrl'
+      }).
       otherwise({
         redirectTo: '/'
       });

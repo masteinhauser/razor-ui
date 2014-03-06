@@ -28,6 +28,16 @@
   </table>
 </div>
 
+<div class="wrapper" style="float:left" ng-controller="RepoListCtrl" > 
+	<h3>Repos</h3>
+
+	<table>
+		<tr ng-repeat="repo in repos.items | orderBy:natural('name')">
+			<td><a ng-href="#/repos/{{repo.name}}">{{ repo.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
 <div class="wrapper" style="float:left" ng-controller="TaskListCtrl" > 
 	<h3>Tasks</h3>
 
