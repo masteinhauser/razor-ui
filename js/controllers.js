@@ -25,7 +25,8 @@ RazorAppControllers.controller(
 		$scope.config		= config;
     $scope.brokerId = $routeParams.brokerId; 
 
-		$scope.broker = Broker.detail({brokerId: $routeParams.brokerId});
+		$scope.broker   = Broker.detail({brokerId: $routeParams.brokerId});
+		$scope.policies = Broker.policies({brokerId: $routeParams.brokerId});
   }]
 );
 
