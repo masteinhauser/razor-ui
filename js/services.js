@@ -49,8 +49,10 @@ RazorAppServices.factory('Task', ['$resource',
 RazorAppServices.factory('Tag', ['$resource',
   function($resource){
     return $resource(getRazorUrl('/api/collections/tags'), {}, {
-			list:   {method:'GET', url: getRazorUrl('/api/collections/tags')},
-			detail: {method:'GET', url: getRazorUrl('/api/collections/tags/:tagId'), params:{tagId:'noop'}}
+			list:     {method:'GET', url: getRazorUrl('/api/collections/tags')},
+			detail:   {method:'GET', url: getRazorUrl('/api/collections/tags/:tagId'), params:{tagId:'noop'}},
+			nodes:    {method:'GET', url: getRazorUrl('/api/collections/tags/:tagId/nodes'), params:{tagId:'noop'}},
+			policies: {method:'GET', url: getRazorUrl('/api/collections/tags/:tagId/policies'), params:{tagId:'noop'}}
     });
   }
 ]);

@@ -112,5 +112,7 @@ RazorAppControllers.controller(
     $scope.tagId = $routeParams.tagId; 
 
 		$scope.tag = Tag.detail({tagId: $routeParams.tagId});
+		$scope.tag.nodes = Tag.nodes({tagId: $routeParams.tagId});
+		$scope.tag.policies = Tag.policies({tagId: $routeParams.tagId});
   }]
 );

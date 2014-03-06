@@ -1,0 +1,14 @@
+<div class="wrapper" ng-controller="TagListCtrl" > 
+	<h3>Tag Name</h3>
+
+	<table>
+		<tr ng-repeat="tag in data.items | orderBy:natural('name')">
+			<td><a ng-href="#/tags/{{tag.name}}">{{ tag.name }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<hr/>
+<pre ng-if="config.dump">
+{{ data | json }}
+</pre>
