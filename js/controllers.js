@@ -61,6 +61,7 @@ RazorAppControllers.controller(
     $scope.policyId = $routeParams.policyId; 
 
 		$scope.policy = Policy.detail({policyId: $routeParams.policyId});
+		$scope.nodes  = Policy.nodes({policyId: $routeParams.policyId});
   }]
 );
 
