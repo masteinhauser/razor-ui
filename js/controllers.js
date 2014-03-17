@@ -1,8 +1,9 @@
 var RazorAppControllers = angular.module('RazorAppControllers', []);
 
 RazorAppControllers.controller(
-  "MainIndexCtrl", ["$scope", "Broker", "Node", "Policy", "Repo", "Task", "Tag", function($scope, Broker, Node, Policy, Repo, Task, Tag){
+  "MainIndexCtrl", ["$scope", "Util", "Broker", "Node", "Policy", "Repo", "Task", "Tag", function($scope, Util, Broker, Node, Policy, Repo, Task, Tag){
 		$scope.config		= config;
+		$scope.Util     = Util;
 		$scope.brokers  = Broker.list();
 		$scope.nodes		= Node.list();
 		$scope.policies = Policy.list();
@@ -13,16 +14,18 @@ RazorAppControllers.controller(
 );
 
 RazorAppControllers.controller(
-  "BrokerListCtrl", ["$scope", "Broker", function($scope, Broker){
-		$scope.config		= config;
-		$scope.data = Broker.list();
+  "BrokerListCtrl", ["$scope", "Util", "Broker", function($scope, Util, Broker){
+		$scope.config	= config;
+		$scope.Util   = Util;
+		$scope.data   = Broker.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "BrokerDetailCtrl", ["$scope", "$routeParams", "Broker",
-  function($scope, $routeParams, Broker){
-		$scope.config		= config;
+  "BrokerDetailCtrl", ["$scope", "$routeParams", "Util", "Broker",
+  function($scope, $routeParams, Util, Broker){
+		$scope.config	  = config;
+		$scope.Util     = Util;
     $scope.brokerId = $routeParams.brokerId; 
 
 		$scope.broker   = Broker.detail({brokerId: $routeParams.brokerId});
@@ -31,91 +34,100 @@ RazorAppControllers.controller(
 );
 
 RazorAppControllers.controller(
-  "NodeListCtrl", ["$scope", "Node", function($scope, Node){
+  "NodeListCtrl", ["$scope", "Util", "Node", function($scope, Util, Node){
 		$scope.config	= config;
-		$scope.data = Node.list();
+		$scope.Util   = Util;
+		$scope.data   = Node.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "NodeDetailCtrl", ["$scope", "$routeParams", "Node", "Util",
-  function($scope, $routeParams, Node, Util){
+  "NodeDetailCtrl", ["$scope", "$routeParams", "Util", "Node",
+  function($scope, $routeParams, Util, Node){
 		$scope.config	= config;
 		$scope.Util   = Util;
 
     $scope.nodeId = $routeParams.nodeId; 
-		$scope.node = Node.detail({nodeId: $routeParams.nodeId});
-		$scope.log  = Node.log({nodeId: $routeParams.nodeId});
+		$scope.node   = Node.detail({nodeId: $routeParams.nodeId});
+		$scope.log    = Node.log({nodeId: $routeParams.nodeId});
   }]
 );
 
 RazorAppControllers.controller(
-  "PolicyListCtrl", ["$scope", "Policy", function($scope, Policy){
-		$scope.config		= config;
-		$scope.data = Policy.list();
+  "PolicyListCtrl", ["$scope", "Util", "Policy", function($scope, Util, Policy){
+		$scope.config	= config;
+		$scope.Util   = Util;
+		$scope.data   = Policy.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "PolicyDetailCtrl", ["$scope", "$routeParams", "Policy",
-  function($scope, $routeParams, Policy){
+  "PolicyDetailCtrl", ["$scope", "$routeParams", "Util", "Policy",
+  function($scope, $routeParams, Util, Policy){
 		$scope.config		= config;
+		$scope.Util			= Util;
     $scope.policyId = $routeParams.policyId; 
 
-		$scope.policy = Policy.detail({policyId: $routeParams.policyId});
-		$scope.nodes  = Policy.nodes({policyId: $routeParams.policyId});
+		$scope.policy		= Policy.detail({policyId: $routeParams.policyId});
+		$scope.nodes		= Policy.nodes({policyId: $routeParams.policyId});
   }]
 );
 
 RazorAppControllers.controller(
-  "RepoListCtrl", ["$scope", "Repo", function($scope, Repo){
-		$scope.config		= config;
-		$scope.data = Repo.list();
+  "RepoListCtrl", ["$scope", "Util", "Repo", function($scope, Util, Repo){
+		$scope.config	= config;
+		$scope.Util   = Util;
+		$scope.data		= Repo.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "RepoDetailCtrl", ["$scope", "$routeParams", "Repo",
-  function($scope, $routeParams, Repo){
-		$scope.config		= config;
+  "RepoDetailCtrl", ["$scope", "$routeParams", "Util", "Repo",
+  function($scope, $routeParams, Util, Repo){
+		$scope.config	= config;
+		$scope.Util   = Util;
     $scope.repoId = $routeParams.repoId; 
 
-		$scope.repo = Repo.detail({repoId: $routeParams.repoId});
+		$scope.repo		= Repo.detail({repoId: $routeParams.repoId});
   }]
 );
 
 RazorAppControllers.controller(
-  "TaskListCtrl", ["$scope", "Task", function($scope, Task){
-		$scope.config		= config;
-		$scope.data = Task.list();
+  "TaskListCtrl", ["$scope", "Util", "Task", function($scope, Util, Task){
+		$scope.config	= config;
+		$scope.Util   = Util;
+		$scope.data		= Task.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "TaskDetailCtrl", ["$scope", "$routeParams", "Task",
-  function($scope, $routeParams, Task){
-		$scope.config		= config;
+  "TaskDetailCtrl", ["$scope", "$routeParams", "Util", "Task",
+  function($scope, $routeParams, Util, Task){
+		$scope.config	= config;
+		$scope.Util   = Util;
     $scope.taskId = $routeParams.taskId; 
 
-		$scope.task = Task.detail({taskId: $routeParams.taskId});
+		$scope.task		= Task.detail({taskId: $routeParams.taskId});
   }]
 );
 
 RazorAppControllers.controller(
-  "TagListCtrl", ["$scope", "Tag", function($scope, Tag){
-		$scope.config		= config;
-		$scope.data = Tag.list();
+  "TagListCtrl", ["$scope", "Util", "Tag", function($scope, Util, Tag){
+		$scope.config	= config;
+		$scope.Util   = Util;
+		$scope.data		= Tag.list();
   }]
 );
 
 RazorAppControllers.controller(
-  "TagDetailCtrl", ["$scope", "$routeParams", "Tag",
-  function($scope, $routeParams, Tag){
+  "TagDetailCtrl", ["$scope", "$routeParams", "Util", "Tag",
+  function($scope, $routeParams, Util, Tag){
 		$scope.config		= config;
-    $scope.tagId = $routeParams.tagId; 
+		$scope.Util			= Util;
+    $scope.tagId		= $routeParams.tagId; 
 
-		$scope.tag = Tag.detail({tagId: $routeParams.tagId});
-		$scope.nodes = Tag.nodes({tagId: $routeParams.tagId});
+		$scope.tag			= Tag.detail({tagId: $routeParams.tagId});
+		$scope.nodes		= Tag.nodes({tagId: $routeParams.tagId});
 		$scope.policies = Tag.policies({tagId: $routeParams.tagId});
   }]
 );

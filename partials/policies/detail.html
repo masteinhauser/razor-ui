@@ -19,6 +19,10 @@
 </table>
 <hr/>
 
-<pre ng-if="config.dump">
+<div class="raw-data">
+  <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
+  <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
+	<pre ng-show="Util.showJSON()">
 {{ policy | json }}
-</pre>
+	</pre>
+</div>
