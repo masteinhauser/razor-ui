@@ -38,11 +38,12 @@ RazorAppControllers.controller(
 );
 
 RazorAppControllers.controller(
-  "NodeDetailCtrl", ["$scope", "$routeParams", "Node",
-  function($scope, $routeParams, Node){
+  "NodeDetailCtrl", ["$scope", "$routeParams", "Node", "Util",
+  function($scope, $routeParams, Node, Util){
 		$scope.config	= config;
-    $scope.nodeId = $routeParams.nodeId; 
+		$scope.Util   = Util;
 
+    $scope.nodeId = $routeParams.nodeId; 
 		$scope.node = Node.detail({nodeId: $routeParams.nodeId});
 		$scope.log  = Node.log({nodeId: $routeParams.nodeId});
   }]

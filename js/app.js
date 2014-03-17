@@ -2,7 +2,8 @@ var RazorApp = angular.module("RazorApp", [
   'ngRoute',
   'naturalSort',
   'RazorAppControllers',
-  'RazorAppServices'
+  'RazorAppServices',
+  'RazorAppUtil'
 ]);
 
 RazorApp.config(['$routeProvider',
