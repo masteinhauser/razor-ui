@@ -7,9 +7,9 @@ RazorAppUtil.factory('Util',
 		return {
 			getRazorURL: function(url){
 		    if ( config.exdata ) {
-		      return prefix + "/exdata" + url + ".json";
+		      return config.prefix + "/exdata" + url + ".json";
 		    } else {
-		      return prefix + url;
+		      return config.prefix + url;
 		    }
 		  },
 	    showJSON: function(show){
