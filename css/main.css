@@ -1,8 +1,22 @@
+.main {
+  margin-top: 50px;
+}
+
 .wrapper {
   float: left;
   padding:25px;
 }
 
 .raw-data {
-  clear: left;
+  display: none;
+}
+
+.table-details {
+  font-size: 90%;
+  margin-bottom: 0;
+}
+.table-details td {
+  border-top: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
