@@ -8,10 +8,6 @@
           <th>Type</th>
           <td>{{ broker["broker-type"] }}</td>
         </tr>
-        <tr>
-          <th>Configuration</th>
-          <td><pre>{{ broker.configuration }}</pre></td>
-        </tr>
       </table>
     </div>
   </div>
@@ -28,6 +24,10 @@
     </div>
   </div>
 </div>
+
+<pre>
+{{ broker.configuration | json }}
+</pre>
 
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
