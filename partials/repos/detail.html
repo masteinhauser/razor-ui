@@ -1,24 +1,22 @@
-<div style="width: 100%;">
-  <div style="float: left;">
-    <h3>Repo Info</h3>
-		<table id="details">
-			<tr>
-				<td>Name</td>
-				<td>{{ repo.name }}</td>
-			</tr>
-			<tr>
-				<td>ISO URL</td>
-				<td>{{ repo.iso_url }}</td>
-			</tr>
-			<tr><td colspan="2"><hr/></td></tr>
-		</table>
+<h2>{{ repo.name }} <small>repo</small></h2>
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Info</h3></div>
+      <table class="table table-status">
+        <tr>
+          <th>ISO URL</th>
+          <td>{{ repo.iso_url }}</td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
   <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
-	<pre ng-show="Util.showJSON()">
+  <pre ng-show="Util.showJSON()">
 {{ repo | json }}
-	</pre>
+  </pre>
 </div>

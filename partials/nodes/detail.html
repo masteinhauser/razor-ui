@@ -24,10 +24,10 @@
     
     <div class="panel panel-default">
       <div class="panel-heading"><h3 class="panel-title">Hardware Info</h3></div>
-        <table class="table table-status">
+        <table class="table table-status table-striped">
           <tr ng-repeat="(key, fact) in node.hw_info | orderBy:natural('key')">
             <th>{{key}}</th>
-            <td>{{fact}}</td>
+            <td><code>{{fact}}</code></td>
           </tr>
         </table>
     </div>
@@ -37,7 +37,7 @@
         <table class="table table-status table-striped">
           <tr ng-repeat="(key, fact) in node.facts | orderBy:natural('key')">
             <th>{{key}}</th>
-            <td>{{fact}}</td>
+            <td><code>{{fact}}</code></td>
           </tr>
         </table>
     </div>
@@ -60,4 +60,12 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="raw-data">
+  <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
+  <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
+  <pre ng-show="Util.showJSON()">
+{{ node | json }}
+  </pre>
 </div>

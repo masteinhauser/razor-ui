@@ -9,35 +9,35 @@
   <div class="col-md-2" ng-controller="PolicyListCtrl">
     <h4>Policies <small>{{ policies.items.length }}</small></h4>
     <ul class="item-list" ng-repeat="policy in policies.items | orderBy:natural('name')">
-      <li><a ng-href="#/policies/{{node.name}}">{{ policy.name }}</a></li>
+      <li><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></li>
     </ul>
   </div>
 
   <div class="col-md-2" ng-controller="BrokerListCtrl">
     <h4>Brokers <small>{{ brokers.items.length }}</small></h4>
     <ul class="item-list" ng-repeat="broker in brokers.items | orderBy:natural('name')">
-      <li><a ng-href="#/brokers/{{node.name}}">{{ broker.name }}</a></li>
+      <li><a ng-href="#/brokers/{{broker.name}}">{{ broker.name }}</a></li>
     </ul>
   </div>
 
   <div class="col-md-2" ng-controller="RepoListCtrl">
     <h4>Repos <small>{{ repos.items.length }}</small></h4>
     <ul class="item-list" ng-repeat="repo in repos.items | orderBy:natural('name')">
-      <li><a ng-href="#/repos/{{node.name}}">{{ repo.name }}</a></li>
+      <li><a ng-href="#/repos/{{repo.name}}">{{ repo.name }}</a></li>
     </ul>
   </div>
 
   <div class="col-md-2" ng-controller="TaskListCtrl">
     <h4>Tasks <small>{{ tasks.items.length }}</small></h4>
     <ul class="item-list" ng-repeat="task in tasks.items | orderBy:natural('name')">
-      <li><a ng-href="#/tasks/{{node.name}}">{{ task.name }}</a></li>
+      <li><a ng-href="#/tasks/{{task.name}}">{{ task.name }}</a></li>
     </ul>
   </div>
 
   <div class="col-md-2" ng-controller="TagListCtrl">
     <h4>Tags <small>{{ tags.items.length }}</small></h4>
     <ul class="item-list" ng-repeat="tag in tags.items | orderBy:natural('name')">
-      <li><a ng-href="#/tags/{{node.name}}">{{ tag.name }}</a></li>
+      <li><a ng-href="#/tags/{{tag.name}}">{{ tag.name }}</a></li>
     </ul>
   </div>
 </div>

@@ -1,29 +1,41 @@
-<div style="width: 100%;">
-  <div style="float: left;">
-    <h3>Tag Info</h3>
-		<table id="details">
-			<tr>
-				<td>Name</td>
-				<td>{{ tag.name }}</td>
-			</tr>
-			<tr><td>Rule</td><td>{{ tag.rule }}</td></tr>
-      <tr><th colspan="2">Nodes</th></tr>
-			<tr ng-repeat="node in nodes.items | orderBy:natural('name')">
-				<td colspan="2"><a ng-href="#/nodes/{{node.name}}">{{ node.name }}</a></td>
-			</tr>
-      <tr><th colspan="2">Policies</th></tr>
-			<tr ng-repeat="policy in policies.items | orderBy:natural('name')">
-				<td colspan="2"><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
-			</tr>
-			<tr><td colspan="2"><hr/></td></tr>
-		</table>
+<h2>{{ tag.name }} <small>tag</small></h2>
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Info</h3></div>
+      <table class="table table-status">
+        <tr>
+          <th>Rule</th>
+          <td><code>{{ tag.rule }}</code></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+	
+  <div class="col-md-6">
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Policies</h3></div>
+          <div class="list-group" ng-repeat="policy in policies.items | orderBy:natural('name')">
+            <div class="list-group-item"><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading"><h3 class="panel-title">Nodes</h3></div>
+          <div class="list-group" ng-repeat="node in node.items | orderBy:natural('name')">
+            <div class="list-group-item"><a ng-href="#/nodes/{{node.name}}">{{ node.name }}</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
   <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
-	<pre ng-show="Util.showJSON()">
+  <pre ng-show="Util.showJSON()">
 {{ tag | json }}
-	</pre>
+  </pre>
 </div>
