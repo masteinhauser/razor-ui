@@ -1,30 +1,36 @@
-<div style="width: 100%;">
-  <div style="float: left;">
-    <h3>Task Info</h3>
-		<table id="details">
-			<tr>
-				<td>Name</td>
-				<td>{{ task.name }}</td>
-			</tr>
-			<tr>
-				<td>Description</td>
-				<td>{{ task.description }}</td>
-			</tr>
-			<tr>
-				<td>OS Version</td>
-				<td>{{ task.os.version }}</td>
-			</tr>
-      <th>Boot Sequence</th>
-			<tr ng-repeat="(key, value) in task.boot_seq"><td>{{key}}</td><td>{{value}}</td></tr>
-			<tr><td colspan="2"><hr/></td></tr>
-		</table>
+<h2>{{ task.name }} <small>task</small></h2>
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h3 class="panel-title">Info</h3></div>
+      <table class="table table-status">
+        <tr>
+          <th>Description</th>
+          <td>{{ task.description }}</td>
+        </tr>
+        <tr>
+          <th>OS Version</th>
+          <td>{{ task.os.version }}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3 class="panel-title">Boot Sequence</h3></div>
+      <table class="table table-status">
+			  <tr ng-repeat="(key, value) in task.boot_seq">
+          <td>{{key}}</td>
+          <td><code>{{value}}</code></td>
+        </tr>
+      </table>
+    </div>
   </div>
 </div>
 
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
   <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
-	<pre ng-show="Util.showJSON()">
+  <pre ng-show="Util.showJSON()">
 {{ task | json }}
-	</pre>
+  </pre>
 </div>

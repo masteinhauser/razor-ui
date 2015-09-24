@@ -1,5 +1,13 @@
 var RazorAppControllers = angular.module('RazorAppControllers', []);
 
+// I know this shouldn't be here, and I know I don't currently understand
+// Angular enough to know where it should be, so...apologies.
+function NavController($scope, $location){
+  $scope.isActive = function(viewLocation) {
+      return $location.path().indexOf(viewLocation) > -1;
+  }
+}
+
 RazorAppControllers.controller(
   "MainIndexCtrl", ["$scope", "Util", "Broker", "Node", "Policy", "Repo", "Task", "Tag", function($scope, Util, Broker, Node, Policy, Repo, Task, Tag){
 		$scope.config		= config;

@@ -1,8 +1,39 @@
-.wrapper {
-  float: left;
-  padding:25px;
+.main {
+  margin-top: 5em;
 }
 
 .raw-data {
-  clear: left;
+  display: none;
 }
+
+.table-status th {
+  padding-left: 1em !important;
+}
+
+.table-log-entries {
+  font-size: 90%;
+  margin-bottom: 0;
+}
+.table-log-entries td {
+  border-top: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+ul.item-list {
+  margin-left: -1em;
+  margin-bottom: 0;
+}
+
+/* Flip the stripes */
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #ffffff;
+ }
+
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #f9f9f9;
+ }
+

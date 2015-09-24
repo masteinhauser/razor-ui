@@ -1,14 +1,12 @@
-<div class="wrapper" ng-controller="TaskListCtrl" > 
-	<h3>Task Name</h3>
-
-	<table>
-		<tr ng-repeat="task in data.items | orderBy:natural('name')">
-			<td><a ng-href="#/tasks/{{task.name}}">{{ task.name }}</a></td>
-    </tr>
-  </table>
+<div class="row">
+  <div class="col-md-12" ng-controller="TaskListCtrl">
+    <h2>Tasks <small>{{ tasks.items.length }}</small></h2>
+    <ul class="item-list" ng-repeat="task in data.items | orderBy:natural('name')">
+      <li><a ng-href="#/tasks/{{task.name}}">{{ task.name }}</a></li>
+    </ul>
+  </div>
 </div>
 
-<hr/>
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
   <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
