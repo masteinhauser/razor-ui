@@ -1,72 +1,56 @@
-<div class="wrapper" style="float:left" ng-controller="NodeListCtrl" > 
-	<h3>Nodes</h3>
+<div class="row">
+  <div class="col-md-2" ng-controller="NodeListCtrl">
+    <h4>Nodes <small>{{ nodes.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="node in nodes.items | orderBy:natural('name')">
+      <li><a ng-href="#/nodes/{{node.name}}">{{ node.name }}</a></li>
+    </ul>
+  </div>
 
-	<table>
-		<tr ng-repeat="node in nodes.items | orderBy:natural('name')">
-			<td><a ng-href="#/nodes/{{node.name}}">{{ node.name }}</a></td>
-    </tr>
-  </table>
-</div>
+  <div class="col-md-2" ng-controller="PolicyListCtrl">
+    <h4>Policies <small>{{ policies.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="policy in policies.items | orderBy:natural('name')">
+      <li><a ng-href="#/policies/{{node.name}}">{{ policy.name }}</a></li>
+    </ul>
+  </div>
 
-<div class="wrapper" style="float:left" ng-controller="PolicyListCtrl" > 
-	<h3>Policies</h3>
+  <div class="col-md-2" ng-controller="BrokerListCtrl">
+    <h4>Brokers <small>{{ brokers.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="broker in brokers.items | orderBy:natural('name')">
+      <li><a ng-href="#/brokers/{{node.name}}">{{ broker.name }}</a></li>
+    </ul>
+  </div>
 
-	<table>
-		<tr ng-repeat="policy in policies.items | orderBy:natural('name')">
-			<td><a ng-href="#/policies/{{policy.name}}">{{ policy.name }}</a></td>
-    </tr>
-  </table>
-</div>
+  <div class="col-md-2" ng-controller="RepoListCtrl">
+    <h4>Repos <small>{{ repos.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="repo in repos.items | orderBy:natural('name')">
+      <li><a ng-href="#/repos/{{node.name}}">{{ repo.name }}</a></li>
+    </ul>
+  </div>
 
-<div class="wrapper" style="float:left" ng-controller="BrokerListCtrl" > 
-	<h3>Brokers</h3>
+  <div class="col-md-2" ng-controller="TaskListCtrl">
+    <h4>Tasks <small>{{ tasks.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="task in tasks.items | orderBy:natural('name')">
+      <li><a ng-href="#/tasks/{{node.name}}">{{ task.name }}</a></li>
+    </ul>
+  </div>
 
-	<table>
-		<tr ng-repeat="broker in brokers.items | orderBy:natural('name')">
-			<td><a ng-href="#/brokers/{{broker.name}}">{{ broker.name }}</a></td>
-    </tr>
-  </table>
-</div>
-
-<div class="wrapper" style="float:left" ng-controller="RepoListCtrl" > 
-	<h3>Repos</h3>
-
-	<table>
-		<tr ng-repeat="repo in repos.items | orderBy:natural('name')">
-			<td><a ng-href="#/repos/{{repo.name}}">{{ repo.name }}</a></td>
-    </tr>
-  </table>
-</div>
-
-<div class="wrapper" style="float:left" ng-controller="TaskListCtrl" > 
-	<h3>Tasks</h3>
-
-	<table>
-		<tr ng-repeat="task in tasks.items | orderBy:natural('name')">
-			<td><a ng-href="#/tasks/{{task.name}}">{{ task.name }}</a></td>
-    </tr>
-  </table>
-</div>
-
-<div class="wrapper" style="float:left" ng-controller="TagListCtrl" > 
-	<h3>Tags</h3>
-
-	<table>
-		<tr ng-repeat="tag in tags.items | orderBy:natural('name')">
-			<td><a ng-href="#/tags/{{tag.name}}">{{ tag.name }}</a></td>
-    </tr>
-  </table>
+  <div class="col-md-2" ng-controller="TagListCtrl">
+    <h4>Tags <small>{{ tags.items.length }}</small></h4>
+    <ul class="item-list" ng-repeat="tag in tags.items | orderBy:natural('name')">
+      <li><a ng-href="#/tags/{{node.name}}">{{ tag.name }}</a></li>
+    </ul>
+  </div>
 </div>
 
 <div class="raw-data">
   <button ng-click="Util.showJSON(true)" ng-hide="Util.showJSON()">Show Raw JSON</button>
   <button ng-click="Util.showJSON(false)" ng-show="Util.showJSON()">Hide Raw JSON</button>
-	<pre ng-show="Util.showJSON()">
+  <pre ng-show="Util.showJSON()">
 {{ nodes    | json }}
 {{ policies | json }}
 {{ brokers  | json }}
 {{ repos    | json }}
 {{ tasks    | json }}
 {{ tags     | json }}
-	</pre>
+  </pre>
 </div>

@@ -1,22 +1,26 @@
 .main {
-  margin-top: 50px;
-}
-
-.wrapper {
-  float: left;
-  padding:25px;
+  margin-top: 5em;
 }
 
 .raw-data {
   display: none;
 }
 
-.table-details {
+.table-status th {
+  padding-left: 1em !important;
+}
+
+.table-log-entries {
   font-size: 90%;
   margin-bottom: 0;
 }
-.table-details td {
+.table-log-entries td {
   border-top: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
+}
+
+ul.item-list {
+  margin-left: -1em;
+  margin-bottom: 0;
 }
